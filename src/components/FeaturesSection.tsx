@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mic, FileText, Settings, Globe } from 'lucide-react';
+import { Mic, Bot, Keyboard, Globe, Eye, Shield } from 'lucide-react';
 
 interface Feature {
   icon: React.ComponentType<any>;
@@ -11,27 +11,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: Mic,
-    title: 'Real-time Recognition',
-    description: 'Instant voice-to-text conversion with industry-leading accuracy and minimal latency.',
+    title: 'Voice-First Interface',
+    description: 'Speak naturally to control apps, create content, and automate tasks without menus.',
     delay: 0.1
   },
   {
-    icon: FileText,
-    title: 'Export Transcripts',
-    description: 'Save and export your transcriptions in multiple formats including PDF, DOCX, and TXT.',
+    icon: Bot,
+    title: 'AI Agent Mode',
+    description: 'Nova understands intent, asks clarifying questions, and executes actions autonomously.',
     delay: 0.2
   },
   {
-    icon: Settings,
-    title: 'Adjustable Mic Sensitivity',
-    description: 'Fine-tune microphone sensitivity to work perfectly in any environment or setup.',
+    icon: Keyboard,
+    title: 'Smart Typing',
+    description: 'Real-time voice-to-text with intelligent field detection and multilingual support.',
     delay: 0.3
   },
   {
     icon: Globe,
-    title: 'Multilingual Support',
-    description: 'Support for 50+ languages with real-time translation capabilities.',
+    title: 'Universal Translation',
+    description: 'Instant translation across 50+ languages while you speak or type.',
     delay: 0.4
+  },
+  {
+    icon: Eye,
+    title: 'Vision Integration',
+    description: 'AI detects input fields and UI elements to safely execute precise actions.',
+    delay: 0.5
+  },
+  {
+    icon: Shield,
+    title: 'Privacy & Safety',
+    description: 'Local processing, confirmation prompts, and reversible actions keep you in control.',
+    delay: 0.6
   }
 ];
 
@@ -61,14 +73,14 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Powerful Features
+            Core Features
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need for seamless voice-to-text conversion and accessibility
+            Advanced AI capabilities that transform how you interact with technology through voice
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (

@@ -10,8 +10,8 @@ const Footer = () => {
       { name: 'Support', href: '#support' }
     ],
     company: [
-      { name: 'About Us', href: '#about' },
-      { name: 'Our Aim', href: '#aim' },
+      { name: 'About', href: '#about' },
+      { name: 'Mission', href: '#aim' },
       { name: 'Contact', href: '#contact' },
       { name: 'Careers', href: '#careers' }
     ],
@@ -37,11 +37,11 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center space-x-2">
               <Mic className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">LiveSubtitles</span>
+              <span className="text-xl font-bold text-foreground">Nova</span>
             </div>
             <p className="text-muted-foreground max-w-sm">
-              Making communication accessible through real-time voice-to-text technology. 
-              Empowering everyone to participate in conversations.
+              Your voice-first AI companion. Making technology respond naturally to human 
+              conversation and intent.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -149,10 +149,10 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © 2024 LiveSubtitles. All rights reserved.
+              © 2024 Nova. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm flex items-center">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for accessibility
+              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for voice-first computing
             </p>
           </div>
         </div>

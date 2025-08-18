@@ -27,10 +27,10 @@ const HeroSection = () => {
   const [subtitleText, setSubtitleText] = useState('');
 
   const demoSubtitles = [
-    "Welcome to Live Subtitles demonstration",
-    "Real-time voice-to-text conversion",
-    "Perfect for meetings and accessibility",
-    "Experience seamless communication"
+    "Nova is listening and ready to help",
+    "Try: 'Open my email and compose a new message'",
+    "Or: 'Translate this document to French'",
+    "Voice-first AI that understands your intent"
   ];
 
   useEffect(() => {
@@ -54,10 +54,10 @@ const HeroSection = () => {
           {/* Hero Text */}
           <div className="space-y-6">
             <h1 className="hero-title text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Live Subtitles
+              Nova
             </h1>
             <p className="hero-subtitle text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Real-time voice-to-text subtitles for meetings, content creation, and accessibility.
+              Your voice-first AI companion. Speak naturally to control apps, create content, and get things done.
             </p>
           </div>
 
@@ -83,7 +83,7 @@ const HeroSection = () => {
                   {/* Live Subtitle Display */}
                   <div className="min-h-[60px] flex items-center justify-center p-4 bg-accent/50 rounded-lg border border-border">
                     <p className="text-foreground text-center animate-fade-in">
-                      {subtitleText || "Click the microphone to start..."}
+                      {subtitleText || "Say: 'Nova, open my calendar' or 'Translate this text to Spanish'"}
                     </p>
                   </div>
 
@@ -130,7 +130,7 @@ const HeroSection = () => {
                   <div className="space-y-3">
                     <Button variant="hero" size="lg" className="w-full">
                       <FileText className="h-5 w-5 mr-2" />
-                      Share to Docs
+                      Try Demo
                     </Button>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const HeroSection = () => {
             {/* Main CTA Button */}
             <Button variant="hero" size="xl" className="animate-float">
               <Download className="h-6 w-6 mr-2" />
-              Download Now
+              Download Nova
             </Button>
           </div>
         </div>

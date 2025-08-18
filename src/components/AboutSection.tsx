@@ -7,11 +7,11 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center space-y-8 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            About LiveSubtitles
+            About Nova
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We're a passionate team dedicated to making communication accessible 
-            through innovative voice-to-text technology.
+            Pioneering the future of voice-first computing and human-AI interaction 
+            through revolutionary AI companion technology.
           </p>
         </div>
 
@@ -26,10 +26,10 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground">Our Mission</h3>
               <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-                To revolutionize communication accessibility by providing cutting-edge, 
-                real-time voice-to-text technology that empowers individuals with hearing 
-                impairments and enhances communication for everyone. We believe that 
-                technology should break down barriers, not create them.
+                To make voice the simplest, most intuitive interface by creating an AI companion 
+                that understands human intent and executes actions naturally. Nova represents the 
+                future where technology adapts to humans, not the other way around - enabling 
+                seamless interaction through conversation.
               </p>
             </div>
           </div>
@@ -43,13 +43,13 @@ const AboutSection = () => {
                     <Users className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground">
-                    Community Focused
+                    Agent-First Design
                   </h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Every feature we build is designed with our community in mind. 
-                  We actively listen to user feedback and continuously improve 
-                  our platform based on real-world needs and experiences.
+                  Nova is built around conversation-driven interaction. Instead of 
+                  complex menus and interfaces, users simply speak their intentions 
+                  and Nova interprets, clarifies, and executes actions intelligently.
                 </p>
               </div>
             </div>
@@ -61,13 +61,13 @@ const AboutSection = () => {
                     <Lightbulb className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground">
-                    Innovation Driven
+                    AI Safety Pioneer
                   </h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  We're constantly pushing the boundaries of what's possible 
-                  with voice recognition technology, incorporating the latest 
-                  advances in AI and machine learning to deliver superior accuracy.
+                  Combining cutting-edge AI with rigorous safety measures. Nova uses 
+                  computer vision, natural language processing, and structured tool calling 
+                  to ensure actions are accurate, reversible, and user-controlled.
                 </p>
               </div>
             </div>
@@ -86,12 +86,12 @@ const AboutSection = () => {
                     <span className="text-xl font-bold text-primary">S</span>
                   </div>
                   <h4 className="font-semibold text-foreground">Sarah Chen</h4>
-                  <p className="text-sm text-muted-foreground">University Student</p>
+                  <p className="text-sm text-muted-foreground">Content Creator</p>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  "LiveSubtitles has transformed my lecture experience. As someone with 
-                  hearing loss, I can now follow along in real-time and never miss 
-                  important information."
+                  "Nova revolutionized my workflow. I can dictate scripts, control editing software, 
+                  and manage my entire creative process just by speaking. It's like having an 
+                  incredibly smart assistant."
                 </p>
               </div>
 
@@ -101,12 +101,12 @@ const AboutSection = () => {
                     <span className="text-xl font-bold text-primary">M</span>
                   </div>
                   <h4 className="font-semibold text-foreground">Marcus Johnson</h4>
-                  <p className="text-sm text-muted-foreground">Business Manager</p>
+                  <p className="text-sm text-muted-foreground">Product Manager</p>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  "Perfect for our international meetings. The real-time translation 
-                  feature helps our global team communicate seamlessly across 
-                  language barriers."
+                  "Nova handles my entire daily workflow. From scheduling meetings to drafting emails, 
+                  I just speak naturally and everything gets done. It's like having a personal AI 
+                  assistant that actually understands context."
                 </p>
               </div>
 
@@ -116,11 +116,12 @@ const AboutSection = () => {
                     <span className="text-xl font-bold text-primary">E</span>
                   </div>
                   <h4 className="font-semibold text-foreground">Elena Rodriguez</h4>
-                  <p className="text-sm text-muted-foreground">Content Creator</p>
+                  <p className="text-sm text-muted-foreground">Accessibility Advocate</p>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  "Game-changer for my video production workflow. I can generate 
-                  accurate subtitles in real-time, saving hours of post-production work."
+                  "As someone with mobility challenges, Nova's voice-first approach is liberating. 
+                  I can control my computer, write documents, and communicate without physical strain. 
+                  True accessibility innovation."
                 </p>
               </div>
             </div>

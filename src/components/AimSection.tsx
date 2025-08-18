@@ -30,14 +30,13 @@ const AimSection = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Our Aim
+              Our Mission
             </h2>
             
             <div className="max-w-4xl mx-auto space-y-6">
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                At LiveSubtitles, we believe communication should be accessible to everyone. 
-                Our mission is to break down barriers and empower individuals through 
-                real-time voice-to-text technology.
+                Making voice the simplest, most intuitive interface for everyone. We envision a world where 
+                technology adapts to how humans naturally communicate, not the other way around.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -50,11 +49,11 @@ const AimSection = () => {
                     </div>
                   </div>
                   <h3 className="text-xl font-semibold text-foreground">
-                    Accessibility First
+                    Voice-First Future
                   </h3>
                   <p className="text-muted-foreground">
-                    Supporting the hearing-impaired community with reliable, 
-                    real-time transcription services.
+                    Pioneering natural voice interaction that eliminates the need for 
+                    complex menus and interfaces.
                   </p>
                 </div>
 
@@ -67,11 +66,11 @@ const AimSection = () => {
                     </div>
                   </div>
                   <h3 className="text-xl font-semibold text-foreground">
-                    Empowering Users
+                    AI Companion
                   </h3>
                   <p className="text-muted-foreground">
-                    Enabling better communication in meetings, education, 
-                    and daily interactions for everyone.
+                    Creating an intelligent agent that understands intent, maintains context, 
+                    and executes actions safely and efficiently.
                   </p>
                 </div>
 
@@ -84,11 +83,11 @@ const AimSection = () => {
                     </div>
                   </div>
                   <h3 className="text-xl font-semibold text-foreground">
-                    Inclusive Technology
+                    Universal Access
                   </h3>
                   <p className="text-muted-foreground">
-                    Building technology that brings people together, 
-                    regardless of hearing ability or language barriers.
+                    Breaking down barriers through voice, supporting accessibility needs 
+                    and multilingual communication seamlessly.
                   </p>
                 </div>
               </div>

@@ -31,7 +31,7 @@ const ContactSection = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Have questions about LiveSubtitles? We'd love to hear from you. 
+            Questions about Nova? Want to join our beta program? We'd love to hear from you. 
             Send us a message and we'll respond as soon as possible.
           </p>
         </div>
@@ -138,8 +138,8 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">hello@livesubtitles.com</p>
-                      <p className="text-muted-foreground">support@livesubtitles.com</p>
+                      <p className="text-muted-foreground">hello@nova.ai</p>
+                      <p className="text-muted-foreground">support@nova.ai</p>
                     </div>
                   </div>
 
@@ -181,19 +181,19 @@ const ContactSection = () => {
                   href="#faq-setup"
                   className="block text-muted-foreground hover:text-primary transition-colors duration-200"
                 >
-                  → How do I set up LiveSubtitles?
+                  → How do I set up Nova?
                 </a>
                 <a
                   href="#faq-languages"
                   className="block text-muted-foreground hover:text-primary transition-colors duration-200"
                 >
-                  → Which languages are supported?
+                  → What apps can Nova control?
                 </a>
                 <a
                   href="#faq-accuracy"
                   className="block text-muted-foreground hover:text-primary transition-colors duration-200"
                 >
-                  → How accurate are the subtitles?
+                  → How does Nova understand my intent?
                 </a>
                 <a
                   href="#faq-privacy"

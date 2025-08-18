@@ -17,9 +17,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Features', href: '#features' },
-    { name: 'Our Aim', href: '#aim' },
+    { name: 'Modes', href: '#modes' },
     { name: 'Download', href: '#download' },
-    { name: 'About Us', href: '#about' },
+    { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="mic-pulse">
               <Mic className="h-8 w-8 text-primary" />
             </div>
-            <span className="text-xl font-bold text-foreground">LiveSubtitles</span>
+            <span className="text-xl font-bold text-foreground">Nova</span>
           </div>
 
           {/* Desktop Navigation */}

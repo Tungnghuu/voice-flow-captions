@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
+import ModesSection from '@/components/ModesSection';
 import AimSection from '@/components/AimSection';
 import DownloadSection from '@/components/DownloadSection';
 import AboutSection from '@/components/AboutSection';
@@ -14,6 +15,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
+      <ModesSection />
       <AimSection />
       <DownloadSection />
       <AboutSection />

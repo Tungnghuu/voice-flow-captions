@@ -25,11 +25,11 @@ const DownloadSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center space-y-8 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Download LiveSubtitles
+            Download Nova
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get started with LiveSubtitles on your preferred platform. 
-            Free download with all features included.
+            Get your voice-first AI companion on Windows and macOS. 
+            Start speaking and let Nova handle the rest.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const DownloadSection = () => {
         {/* Installation Instructions */}
         <div className="glass p-8 rounded-xl space-y-6">
           <h3 className="text-2xl font-semibold text-foreground text-center">
-            Installation Instructions
+            Quick Setup Guide
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -78,10 +78,10 @@ const DownloadSection = () => {
                 Windows
               </h4>
               <ol className="text-muted-foreground space-y-2 list-decimal list-inside">
-                <li>Download the .exe installer</li>
-                <li>Run as administrator if prompted</li>
-                <li>Follow the setup wizard</li>
-                <li>Launch from Start Menu or Desktop</li>
+                <li>Download Nova for Windows</li>
+                <li>Run installer as administrator</li>
+                <li>Configure voice preferences</li>
+                <li>Choose interaction mode and start speaking</li>
               </ol>
             </div>
             
@@ -91,10 +91,10 @@ const DownloadSection = () => {
                 macOS
               </h4>
               <ol className="text-muted-foreground space-y-2 list-decimal list-inside">
-                <li>Download the .dmg file</li>
-                <li>Open and drag to Applications</li>
-                <li>Allow in System Preferences if needed</li>
-                <li>Launch from Applications folder</li>
+                <li>Download Nova for macOS</li>
+                <li>Install from Applications folder</li>
+                <li>Grant microphone and accessibility permissions</li>
+                <li>Configure Nova and start your voice-first experience</li>
               </ol>
             </div>
           </div>
