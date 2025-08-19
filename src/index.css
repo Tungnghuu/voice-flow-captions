@@ -40,6 +40,10 @@
     --gradient-primary: linear-gradient(135deg, hsl(210 100% 65%), hsl(210 100% 75%));
     --gradient-hero: linear-gradient(135deg, hsl(212 50% 12.5%) 0%, hsl(212 45% 15%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(212 45% 15%) 0%, hsl(212 40% 18%) 100%);
+    --gradient-neon: linear-gradient(135deg, hsl(280 100% 70%), hsl(240 100% 70%), hsl(200 100% 70%));
+    --neon-purple: hsl(280 100% 70%);
+    --neon-blue: hsl(240 100% 70%);
+    --neon-cyan: hsl(200 100% 70%);
     
     --shadow-elegant: 0 10px 30px -10px hsl(210 100% 65% / 0.3);
     --shadow-glow: 0 0 40px hsl(210 100% 75% / 0.4);
@@ -118,6 +122,59 @@
 }
 
 @layer components {
+  /* Neon typing animation */
+  .neon-text {
+    background: var(--gradient-neon);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 20px hsl(280 100% 70% / 0.5),
+                 0 0 40px hsl(240 100% 70% / 0.3),
+                 0 0 60px hsl(200 100% 70% / 0.2);
+    filter: drop-shadow(0 0 10px hsl(280 100% 70% / 0.8));
+  }
+
+  .typing-cursor {
+    @apply inline-block;
+    width: 3px;
+    height: 1em;
+    background: linear-gradient(180deg, var(--neon-purple), var(--neon-cyan));
+    animation: cursor-blink 1.2s ease-in-out infinite, cursor-glow 2s ease-in-out infinite alternate;
+    box-shadow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-blue), 0 0 30px var(--neon-cyan);
+    border-radius: 2px;
+  }
+
+  @keyframes cursor-blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0.3; }
+  }
+
+  @keyframes cursor-glow {
+    0% { 
+      transform: scaleY(1);
+      box-shadow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-blue), 0 0 30px var(--neon-cyan);
+    }
+    100% { 
+      transform: scaleY(1.1);
+      box-shadow: 0 0 15px var(--neon-purple), 0 0 30px var(--neon-blue), 0 0 45px var(--neon-cyan);
+    }
+  }
+
+  .futuristic-ui {
+    background: linear-gradient(135deg, rgba(16, 29, 48, 0.9), rgba(16, 29, 48, 0.7));
+    border: 1px solid rgba(64, 224, 255, 0.3);
+    box-shadow: 0 0 20px rgba(64, 224, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    transition: all 0.3s ease;
+  }
+
+  .futuristic-ui:hover {
+    border-color: rgba(64, 224, 255, 0.5);
+    box-shadow: 0 0 30px rgba(64, 224, 255, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  }
+
   /* Hero animations */
   .hero-title {
     @apply animate-fade-in;
