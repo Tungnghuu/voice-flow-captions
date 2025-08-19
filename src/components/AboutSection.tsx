@@ -73,55 +73,26 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* User Stories */}
+          {/* Technology Overview */}
           <div className="space-y-8">
             <h3 className="text-3xl font-bold text-foreground text-center">
-              User Stories
+              Technology Overview
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="glass p-6 rounded-xl space-y-4">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-xl font-bold text-primary">S</span>
-                  </div>
-                  <h4 className="font-semibold text-foreground">Sarah Chen</h4>
-                  <p className="text-sm text-muted-foreground">Content Creator</p>
-                </div>
+                <h4 className="font-semibold text-foreground text-lg">Core Architecture</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  "Nova revolutionized my workflow. I can dictate scripts, control editing software, 
-                  and manage my entire creative process just by speaking. It's like having an 
-                  incredibly smart assistant."
+                  Nova combines advanced speech recognition, natural language processing, and computer vision 
+                  to create a seamless voice-first interface. Built with safety and privacy at its core.
                 </p>
               </div>
 
               <div className="glass p-6 rounded-xl space-y-4">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-xl font-bold text-primary">M</span>
-                  </div>
-                  <h4 className="font-semibold text-foreground">Marcus Johnson</h4>
-                  <p className="text-sm text-muted-foreground">Product Manager</p>
-                </div>
+                <h4 className="font-semibold text-foreground text-lg">AI Integration</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  "Nova handles my entire daily workflow. From scheduling meetings to drafting emails, 
-                  I just speak naturally and everything gets done. It's like having a personal AI 
-                  assistant that actually understands context."
-                </p>
-              </div>
-
-              <div className="glass p-6 rounded-xl space-y-4">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-xl font-bold text-primary">E</span>
-                  </div>
-                  <h4 className="font-semibold text-foreground">Elena Rodriguez</h4>
-                  <p className="text-sm text-muted-foreground">Accessibility Advocate</p>
-                </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  "As someone with mobility challenges, Nova's voice-first approach is liberating. 
-                  I can control my computer, write documents, and communicate without physical strain. 
-                  True accessibility innovation."
+                  Powered by fine-tuned language models specifically trained for tool calling and desktop automation. 
+                  Structured JSON outputs ensure reliable and safe system interactions.
                 </p>
               </div>
             </div>

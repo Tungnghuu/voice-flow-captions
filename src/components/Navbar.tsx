@@ -31,8 +31,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="mic-pulse">
-              <Mic className="h-8 w-8 text-primary" />
+            <div className="relative">
+              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <div className="w-4 h-4 border-2 border-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                </div>
+              </div>
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-400 rounded-full animate-ping opacity-75"></div>
             </div>
             <span className="text-xl font-bold text-foreground">Nova</span>
           </div>

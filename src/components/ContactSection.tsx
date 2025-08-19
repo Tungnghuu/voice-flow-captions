@@ -138,8 +138,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">hello@nova.ai</p>
-                      <p className="text-muted-foreground">support@nova.ai</p>
+                      <p className="text-muted-foreground">Coming soon...</p>
                     </div>
                   </div>
 
@@ -149,8 +148,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                      <p className="text-sm text-muted-foreground">Mon-Fri 9AM-6PM EST</p>
+                      <p className="text-muted-foreground">Coming soon...</p>
                     </div>
                   </div>
 
@@ -160,11 +158,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Address</h4>
-                      <p className="text-muted-foreground">
-                        123 Innovation Drive<br />
-                        Tech Valley, CA 94000<br />
-                        United States
-                      </p>
+                      <p className="text-muted-foreground">Coming soon...</p>
                     </div>
                   </div>
                 </div>
